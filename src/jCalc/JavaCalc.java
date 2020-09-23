@@ -62,6 +62,7 @@ public class JavaCalc extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("IvySoft's jCalc");
         setBounds(new java.awt.Rectangle(600, 300, 0, 0));
+        setResizable(false);
         setSize(new java.awt.Dimension(500, 500));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(400, 364));
